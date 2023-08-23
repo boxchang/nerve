@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 import socket
 
-HOST = '127.0.0.1'
+#HOST = '127.0.0.1'
+HOST = '10.96.101.11'
 PORT = 7000
 server_addr = (HOST, PORT)
 

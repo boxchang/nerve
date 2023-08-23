@@ -19,6 +19,7 @@ class Disk(object):
         _info = []
         disks = psutil.disk_partitions()
         for disk in disks:
+            print(disk)
             _info.append(psutil.disk_usage(disk.device))
         return self._func_name, _info
 
