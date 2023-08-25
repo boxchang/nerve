@@ -4,7 +4,7 @@ import socket
 
 #HOST = '127.0.0.1'
 HOST = '10.96.101.5'
-PORT = 7000
+PORT = 9527
 server_addr = (HOST, PORT)
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

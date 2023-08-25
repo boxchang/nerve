@@ -4,7 +4,7 @@ import socket
 from base.command import Command
 
 HOST = '0.0.0.0'
-PORT = 9527
+PORT = 7000
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.bind((HOST, PORT))
